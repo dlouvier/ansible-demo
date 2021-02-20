@@ -1,0 +1,8 @@
+- name: Test Playbook
+  hosts: all
+  gather_facts: no
+  become: no
+  tasks:
+    - debug:
+        msg: "Hello world!"
+    
